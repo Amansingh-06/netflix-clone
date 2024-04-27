@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "serif", sans-serif;
+}
+
+main {
+    height: 100vh;
+    background: url(./img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main .box {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.7;
+}
+
+main nav {
+    width: 70vw;
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+
+main nav span {
+    font-size: 45px;
+    color: red;
+    z-index: 10;
+    font-weight: 700;
+}
+
+main nav .link {
+    position: relative;
+    z-index: 100;
+
+
+}
+
+main nav .link select {
+    font-size: 16px;
+    padding: 5px 15px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    margin-right: 20px;
+    border-radius: 3px;
+
+
+}
+
+main nav .link select option {
+    color: black;
+}
+
+main nav .link .signinbtn {
+    padding: 5px 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background: red;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+
+    z-index: 100;
+
+}
+
+.content .first {
+    font-size: 45px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+.content .second {
+    font-size: 30px;
+
+    margin: 20px;
+}
+
+.content .third {
+    font-size: 25px;
+
+    margin: 20px;
+}
+
+.content input {
+    width: 400px;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: rgba(29, 27, 27, 0.5);
+    color: white;
+}
+
+.content .started {
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 12px 13px;
+    font-size: 26px;
+    margin-left: 15px;
+
+}
+
+.line {
+    width: 100%;
+    height: 8px;
+    background-color: rgba(73, 77, 80, 0.63);
+}
+
+.secondpage {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.secondpage .secondcontent {
+    width: 760px;
+
+
+
+    color: white;
+}
+
+.secondpage .secondcontent h1 {
+    font-size: 66px;
+    margin-bottom: 33px;
+    letter-spacing: -3px;
+}
+
+.secondpage .secondcontent h2 {
+    line-height: 28px;
+}
+
+.secondpage .secondcontentpage {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -40px;
+
+
+
+}
+
+.secondpage .secondcontentpage video {
+    position: relative;
+    width: 464px;
+    left: -555px;
+    top: -8px;
+}
+
+.thirdpage {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+
+
+
+}
+
+.thirdpage .thirdimg {
+    width: 500px;
+    height: 500px;
+
+}
+
+.thirdcontent {
+    width: 700px;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thirdcontent h1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin-bottom: 10px;
+}
+
+.thirdcontent h2 {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.thirdimg .downloading {
+    position: relative;
+    width: 360px;
+    height: 115px;
+    background-color: black;
+    border: white 2px solid;
+    top: -155px;
+    left: 150px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    padding: 10px;
+
+    justify-content: space-around;
+}
+
+.thirdimg .downloading .insidebox {
+    margin-top: 22px;
+    margin-left: -10px;
+}
+
+.thirdimg .downloading .insidebox p:first-child {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.thirdimg .downloading .insidebox p:nth-child(2) {
+    color: blue;
+    margin-top: 5px;
+}
+
+.thirdimg .downloading span {
+    margin-top: 26px;
+}
+
+.fourthpage {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+
+
+}
+
+.fourthpage .fourthcontent {
+    width: 635px;
+    margin-left: -50px;
+
+
+
+    color: white;
+}
+
+.fourthpage .fourthcontent h1 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    letter-spacing: -3px;
+}
+
+.fourthpage .fourthcontent h2 {
+    line-height: 28px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.fourthpage .fourthcontentpage {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -40px;
+    position: relative;
+    z-index: 100;
+
+
+
+}
+
+.fourthpage .fourthcontentpage video {
+    position: absolute;
+    width: 390px;
+    z-index: -1;
+    top: 42px;
+    left: 117px;
+
+}
+
+.fifthpage {
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+
+
+
+}
+
+.fifthpage .fifthimg {
+    width: 500px;
+    height: 500px;
+
+}
+
+.fifthcontent {
+    width: 500px;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fifthcontent h1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin-bottom: 10px;
+}
+
+.fifthcontent h2 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.lastmain {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+
+}
+
+.lastpage {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lastpage h1 {
+    color: white;
+    margin: 80px 0px 40px 0px;
+    font-size: 60px;
+}
+
+.lastpage button {
+    margin-top: 15px;
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 25px;
+    background-color: rgba(72, 74, 74, 0.74);
+    margin: 5px;
+    color: white;
+}
+
+.lastpage button span:last-child {
+    font-size: 60px;
+
+}
+
+.lastmain .lasttext {
+    color: white;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.lastmain input {
+    margin-top: 25px;
+    border-radius: 3px;
+    margin-bottom: 35px;
+}
+
+.lastmain input:first-child {
+    width: 400px;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: rgba(29, 27, 27, 0.5);
+    color: white;
+
+
+}
+
+.lastmain input:last-child {
+
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 12px 13px;
+    font-size: 26px;
+    margin-left: 15px;
+    border: 1px solid red;
+
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footercontent {
+    display: grid;
+    width: 80%;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px;
+
+
+}
+
+.footercontent div {
+    display: flex;
+    flex-direction: column;
+    color: silver;
+
+
+}
+
+.footercontent a {
+    margin: 15px;
+    color: silver;
+
+
+}
+
+.footercontent p {
+    margin: 15px;
+
+}
